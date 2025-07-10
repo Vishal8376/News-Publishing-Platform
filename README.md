@@ -1,6 +1,4 @@
-# News-Publishing-Platform
-
-````markdown
+---
 # 📰 News Publishing Platform
 
 A Django-based web platform that allows editors to create, update, delete, and publish news articles. The public frontend displays a list of published articles, while authenticated admins (staff users) can manage articles using form-based views.
@@ -32,11 +30,11 @@ A Django-based web platform that allows editors to create, update, delete, and p
    ```bash
    git clone https://github.com/your-username/news-publishing-platform.git
    cd news-publishing-platform
-````
-
+```
+```
 2. **Create Virtual Environment**
 
-   ```bash
+   ```
    python -m venv venv
    source venv/bin/activate    # On Windows: venv\Scripts\activate
    ```
@@ -78,10 +76,10 @@ A Django-based web platform that allows editors to create, update, delete, and p
 ```
 newsportal/
 │
-├── newsportal/             # Project settings
+├── newsportal/             
 │   └── settings.py
 │
-├── news/                   # App containing models, views, templates
+├── news/                   
 │   ├── models.py
 │   ├── views.py
 │   ├── urls.py
@@ -91,7 +89,7 @@ newsportal/
 │       ├── form.html
 │       └── confirm_delete.html
 │
-├── db.sqlite3              # SQLite Database
+├── db.sqlite3              
 └── manage.py
 ```
 
